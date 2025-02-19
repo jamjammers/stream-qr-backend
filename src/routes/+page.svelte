@@ -1,3 +1,47 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	// import ScoreBadge from './overlay/ScoreBadge.svelte';
+	// import InfoBanner from './overlay/InfoBanner.svelte';
+	// import TotalScoreCard from './overlay/TotalScoreCard.svelte';
+	// import TimerCard from './overlay/TimerCard.svelte';
+	// import TeamBanner from './overlay/TeamBanner.svelte';
+	import Results from './results/Results.svelte';
+
+</script>
+<div>HI</div>
+<results>
+    <Results></Results>
+</results>
+<style>
+    /*results {
+        .container {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            top: 1.2vw;
+            right: 1.2vw;
+            gap: 0.8vw;
+
+            #results {
+                position: static;
+            }
+
+            .away {
+                opacity: 0;
+
+                &#await {
+                    transform: translateY(calc(-100% - 1.2vw));
+
+                    & + #results {
+                        position: absolute;
+                        top: 0;
+                    }
+                }
+
+                &#results {
+                    transform: translateX(calc(100% + 1.2vw));
+                }
+            }
+        }
+    }*/
+</style>
